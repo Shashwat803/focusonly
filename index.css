@@ -1,0 +1,134 @@
+body{
+    background-color: #121212;
+}
+.main{
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+}
+
+.timer-body{
+    width: 100%;
+}
+
+.time-seconds{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.start-btn{
+    padding: 5px 15px 5px 15px;
+    margin-left: 5px;
+    background-color:#00ff00c8;
+    border: none;
+    border-radius: 5px;
+    color:white;
+    cursor: pointer;
+}
+
+.stop-btn{
+    padding: 5px 15px 5px 15px;
+    margin-left: 5px;
+    background-color:red;
+    border: none;
+    border-radius: 5px;
+    color:white;
+    cursor: pointer;   
+}
+
+.start-btn:hover{
+    padding: 5px 15px 5px 15px;
+    margin-left: 5px;
+    background-color:#00b300;
+    border: none;
+    border-radius: 5px;
+    color:white;
+    cursor: pointer;
+}
+
+.increaseDecreaseBtn{
+    padding: 5px 15px 5px 15px;
+    margin-left: 5px;
+    background-color: #808080;
+    border: none;
+    border-radius: 5px;
+    color:white;
+    cursor: pointer;
+}
+
+.increaseDecreaseBtn:disabled{
+    padding: 5px 15px 5px 15px;
+    margin-left: 5px;
+    background-color: #404040;
+    border: none;
+    border-radius: 5px;
+    color:rgba(255, 255, 255, 0.764);
+    cursor: pointer;
+}
+
+
+
+.timer{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin-right: 8px;
+}
+.seconds{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    margin-right: 4px;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+
+.linkbox{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linkbox input{
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    margin-right: 4px;
+}
+.linkbox button{
+    padding: 6px 12px;
+    border: none;
+    outline: none;
+    margin-right: 4px;
+    background-color: #404040;
+    color: white;
+    cursor: pointer;
+}
+
+.li{
+   list-style:disc;
+    color: white;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.li a{
+    text-decoration: none;
+    color: white;
+    margin-top: 5px;
+}
+
+.deleteBtn{
+    margin-left: 4px;
+    padding: 3px 8px;
+    font-size: 10px;
+    border: none;
+    outline: none;
+    background-color:red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}

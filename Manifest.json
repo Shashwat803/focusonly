@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Focused Only!",
+  "description": "Focus Timer with website blocker!",
+  "version": "1.1",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon":"focus.png"
+  },
+  "permissions": [
+    "storage",
+    "tabs",
+    "activeTab",
+    "webRequest",
+    "webRequestBlocking",
+    "declarativeNetRequest"
+  ],
+  "host_permissions": ["*://*/*"],
+  "background": {
+   "service_worker": "background.js"
+  }
+}
